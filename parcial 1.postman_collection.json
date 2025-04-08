@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "ae33d726-40d9-40ba-943a-8f5d3cc4e877",
+		"name": "parcial 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43571119",
+		"_collection_link": "https://xavierceccotti.postman.co/workspace/Xavier-Ceccotti's-Workspace~5c9f2dfb-cb2e-4610-87f6-2a07fc9d1974/collection/43571119-ae33d726-40d9-40ba-943a-8f5d3cc4e877?action=share&source=collection_link&creator=43571119"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API}}",
+					"host": [
+						"{{API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API}}",
+					"host": [
+						"{{API}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API}}/producto1",
+					"host": [
+						"{{API}}"
+					],
+					"path": [
+						"producto1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PATCH",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
